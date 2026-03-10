@@ -10,6 +10,7 @@
     "title": "BE@RBRICK 팝업 스토어",
     "description": "WooCommerce, Zustand 장바구니, next-intl을 포함한 Next.js 15 스토어프론트를 초기 구성했습니다.",
     "browseProducts": "상품 보기",
+    "goToCart": "장바구니로 이동",
     "goToCheckout": "결제로 이동"
   },
   "Products": {

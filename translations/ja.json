@@ -10,6 +10,7 @@
     "title": "BE@RBRICK ポップアップストア",
     "description": "Next.js 15 ストアフロント（WooCommerce、Zustand カート、next-intl）を初期構築しました。",
     "browseProducts": "商品を見る",
+    "goToCart": "カートへ",
     "goToCheckout": "チェックアウトへ"
   },
   "Products": {

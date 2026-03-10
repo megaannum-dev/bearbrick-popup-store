@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { NavCart } from "@/components/cart/nav-cart";
 
 type LocaleLayoutProps = {
   children: React.ReactNode;
@@ -29,7 +30,10 @@ export default async function LocaleLayout({
         <header className="border-b">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
             <div className="text-lg font-semibold">BE@RBRICK</div>
-            <LanguageSwitcher />
+            <div className="ml-auto flex items-center gap-3">
+              <LanguageSwitcher />
+              <NavCart />
+            </div>
           </div>
         </header>
         {children}

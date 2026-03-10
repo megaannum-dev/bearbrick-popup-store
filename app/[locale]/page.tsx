@@ -15,6 +15,7 @@ export default function LocalizedHomePage() {
         >
           {t("Home.browseProducts")}
         </Link>
+        {/* for debugging purpose remove this link later and the associate json key translation */}
         <Link
           href="checkout"
           className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium"

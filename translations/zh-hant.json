@@ -10,6 +10,7 @@
     "title": "BE@RBRICK 快閃店",
     "description": "已建立 Next.js 15 商店骨架，包含 WooCommerce、Zustand 購物車與 next-intl。",
     "browseProducts": "瀏覽商品",
+    "goToCart": "前往購物車",
     "goToCheckout": "前往結帳"
   },
   "Products": {
