@@ -18,6 +18,15 @@ if (wordpressUrl) {
   });
 }
 
+// remove and replace with self hosted image domain if needed
+// or from wordpress server if it serves images directly from there
+// make sure does not violate great firewall of china (GFC) rules if you use external image domain
+remotePatterns.push({
+  protocol: "https",
+  hostname: "images.unsplash.com",
+  pathname: "/**",
+});
+
 const nextConfig: NextConfig = {
   images: {
     remotePatterns,

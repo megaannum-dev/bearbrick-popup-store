@@ -11,7 +11,29 @@
     "description": "Next.js 15 storefront initialized with WooCommerce, Zustand cart, and next-intl.",
     "browseProducts": "Browse products",
     "goToCart": "Go to cart",
-    "goToCheckout": "Go to checkout"
+    "goToCheckout": "Go to checkout",
+    "hero": {
+      "slides": {
+        "atelier": {
+          "eyebrow": "Collector's atelier",
+          "title": "A luxury first look at the next BE@RBRICK drop.",
+          "description": "Full-bleed campaign storytelling with gallery-inspired motion, tactile navigation, and a premium editorial pace.",
+          "cta": "Explore the collection"
+        },
+        "midnight": {
+          "eyebrow": "After-dark release",
+          "title": "Immersive launches staged like a private vault opening.",
+          "description": "Looping GSAP transitions keep the hero alive while spotlighting limited editions, timed drops, and collector momentum.",
+          "cta": "View new arrivals"
+        },
+        "salon": {
+          "eyebrow": "Curated salon",
+          "title": "Designed for premium storytelling across every screen.",
+          "description": "Swipe-ready behavior, refined overlays, and elegant pacing make the landing page feel closer to a luxury exhibition than a standard store front.",
+          "cta": "Browse featured pieces"
+        }
+      }
+    }
   },
   "Auth": {
     "login": "Login",

@@ -11,7 +11,29 @@
     "description": "WooCommerce, Zustand 장바구니, next-intl을 포함한 Next.js 15 스토어프론트를 초기 구성했습니다.",
     "browseProducts": "상품 보기",
     "goToCart": "장바구니로 이동",
-    "goToCheckout": "결제로 이동"
+    "goToCheckout": "결제로 이동",
+    "hero": {
+      "slides": {
+        "atelier": {
+          "eyebrow": "컬렉터 아틀리에",
+          "title": "다음 BE@RBRICK 드롭을 고급스럽게 보여주는 히어로 섹션.",
+          "description": "풀블리드 비주얼, 갤러리 감성의 모션, 세련된 인터랙션으로 첫 화면을 프리미엄하게 연출합니다.",
+          "cta": "컬렉션 보기"
+        },
+        "midnight": {
+          "eyebrow": "미드나이트 릴리즈",
+          "title": "프라이빗 볼트 오프닝처럼 몰입감 있는 런칭 경험.",
+          "description": "GSAP 루프 전환으로 메인 비주얼에 생동감을 주고, 한정판과 신규 드롭을 더욱 강하게 강조합니다.",
+          "cta": "신상품 보기"
+        },
+        "salon": {
+          "eyebrow": "큐레이티드 살롱",
+          "title": "모든 화면에서 프리미엄 스토리텔링이 살아나는 랜딩 페이지.",
+          "description": "스와이프 지원, 우아한 오버레이, 정교한 전환 속도로 일반 스토어보다 전시에 가까운 첫인상을 만듭니다.",
+          "cta": "추천 상품 보기"
+        }
+      }
+    }
   },
   "Auth": {
     "login": "로그인",

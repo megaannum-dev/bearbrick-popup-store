@@ -11,7 +11,29 @@
     "description": "已建立 Next.js 15 商店骨架，包含 WooCommerce、Zustand 購物車與 next-intl。",
     "browseProducts": "瀏覽商品",
     "goToCart": "前往購物車",
-    "goToCheckout": "前往結帳"
+    "goToCheckout": "前往結帳",
+    "hero": {
+      "slides": {
+        "atelier": {
+          "eyebrow": "收藏家藝廊",
+          "title": "以奢華視覺呈現下一波 BE@RBRICK 焦點系列。",
+          "description": "全版面敘事、畫廊感動態與細膩互動，讓首頁像精品企劃發布現場。",
+          "cta": "探索系列"
+        },
+        "midnight": {
+          "eyebrow": "午夜發售",
+          "title": "如同私人藏館開場般的沉浸式新品登場。",
+          "description": "循環播放的 GSAP 轉場讓主視覺保持生命力，同時聚焦限量款與期間發售節奏。",
+          "cta": "查看新品"
+        },
+        "salon": {
+          "eyebrow": "策展沙龍",
+          "title": "為每一個螢幕打造更高級的品牌敘事。",
+          "description": "支援滑動、優雅疊層與流暢節奏，讓落地頁更像精品展覽，而不只是一般商店首頁。",
+          "cta": "瀏覽精選單品"
+        }
+      }
+    }
   },
   "Auth": {
     "login": "登入",
